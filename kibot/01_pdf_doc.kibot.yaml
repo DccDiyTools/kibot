@@ -2,12 +2,12 @@ kibot:
   version: 1
 
 preflight:
-  run_erc: false
-  erc_warnings: false
+  erc: false
+  #erc_warnings: false
   update_xml: false
-  run_drc: false
+  drc: false
   check_zone_fills: false
-  ignore_unconnected: false
+  #ignore_unconnected: false
 
 outputs:
   - name: 'pdf_sch'

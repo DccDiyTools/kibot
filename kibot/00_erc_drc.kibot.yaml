@@ -5,9 +5,9 @@ global:
   kiauto_time_out_scale: 2.0
   kiauto_wait_start: 10
 preflight:
-  run_erc: true
-  erc_warnings: false
+  erc: true
+  #erc_warnings: false
   update_xml: false
-  run_drc: true
+  drc: true
   check_zone_fills: false
-  ignore_unconnected: false
+  #ignore_unconnected: false

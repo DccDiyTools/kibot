@@ -2,12 +2,12 @@ kibot:
   version: 1
 
 preflight:
-  run_erc: false
-  erc_warnings: false
+  erc: false
+  #erc_warnings: false
   update_xml: false
-  run_drc: false
+  drc: false
   check_zone_fills: false
-  ignore_unconnected: false
+  #ignore_unconnected: false
 
 outputs:
 
@@ -83,13 +83,13 @@ outputs:
         vcut: '#bf2600'
       warnings: 'visible'
 
-  - name: 'Render-3d'
-    comment: 'Exports the PCB as a 2D model (SVG, PNG or JPG).'
-    type: 'render_3d'
-    dir: './'
-    options:
-      download: true
-      zoom: 5
-      rotate_x: 3
-      rotate_y: 0
-      rotate_z: -2
+  # - name: 'Render-3d'
+  #   comment: 'Exports the PCB as a 2D model (SVG, PNG or JPG).'
+  #   type: 'render_3d'
+  #   dir: './'
+  #   options:
+  #     download: true
+  #     zoom: 5
+  #     rotate_x: 3
+  #     rotate_y: 0
+  #     rotate_z: -2
